@@ -13,6 +13,12 @@
 		149D81851DBD2E8000A9EB1A /* LibraryName.h in Headers */ = {isa = PBXBuildFile; fileRef = 149D81811DBD2E8000A9EB1A /* LibraryName.h */; };
 		14A139B41AEFC72B00AD732F /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A139B31AEFC72B00AD732F /* Tests.swift */; };
 		14C47E0E1CD2AE5F004A48DF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14C47E0D1CD2AE5F004A48DF /* Info.plist */; };
+		E61750001DEDD9B300971D1E /* TagineTagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6174FFF1DEDD9B200971D1E /* TagineTagViewController.swift */; };
+		E61750011DEDD9B300971D1E /* TagineTagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6174FFF1DEDD9B200971D1E /* TagineTagViewController.swift */; };
+		E61750031DEDDBD200971D1E /* TagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61750021DEDDBD200971D1E /* TagCell.swift */; };
+		E61750041DEDDBD200971D1E /* TagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61750021DEDDBD200971D1E /* TagCell.swift */; };
+		E61750061DEDDBFB00971D1E /* TagViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61750051DEDDBFB00971D1E /* TagViewFlowLayout.swift */; };
+		E61750071DEDDBFB00971D1E /* TagViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61750051DEDDBFB00971D1E /* TagViewFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +51,9 @@
 		14C47E0D1CD2AE5F004A48DF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14F393951CC6512400616696 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		14F393961CC6517E00616696 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		E6174FFF1DEDD9B200971D1E /* TagineTagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagineTagViewController.swift; sourceTree = "<group>"; };
+		E61750021DEDDBD200971D1E /* TagCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagCell.swift; sourceTree = "<group>"; };
+		E61750051DEDDBFB00971D1E /* TagViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagViewFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +170,9 @@
 			isa = PBXGroup;
 			children = (
 				149D81811DBD2E8000A9EB1A /* LibraryName.h */,
+				E6174FFF1DEDD9B200971D1E /* TagineTagViewController.swift */,
+				E61750021DEDDBD200971D1E /* TagCell.swift */,
+				E61750051DEDDBFB00971D1E /* TagViewFlowLayout.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -352,6 +364,7 @@
 					};
 					149D81511DBD2ADD00A9EB1A = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					149D815E1DBD2AE500A9EB1A = {
@@ -451,6 +464,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				14A139B41AEFC72B00AD732F /* Tests.swift in Sources */,
+				E61750001DEDD9B300971D1E /* TagineTagViewController.swift in Sources */,
+				E61750031DEDDBD200971D1E /* TagCell.swift in Sources */,
+				E61750061DEDDBFB00971D1E /* TagViewFlowLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +488,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E61750041DEDDBD200971D1E /* TagCell.swift in Sources */,
+				E61750071DEDDBFB00971D1E /* TagViewFlowLayout.swift in Sources */,
+				E61750011DEDD9B300971D1E /* TagineTagViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -694,6 +713,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -723,6 +743,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -952,6 +973,7 @@
 				149D81401DBD2A5E00A9EB1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		149D814A1DBD2A6600A9EB1A /* Build configuration list for PBXNativeTarget "macOSTests" */ = {
 			isa = XCConfigurationList;
@@ -960,6 +982,7 @@
 				149D814C1DBD2A6600A9EB1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		149D81571DBD2ADD00A9EB1A /* Build configuration list for PBXNativeTarget "LibraryName-iOS" */ = {
 			isa = XCConfigurationList;
@@ -968,6 +991,7 @@
 				149D81591DBD2ADD00A9EB1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		149D81641DBD2AE500A9EB1A /* Build configuration list for PBXNativeTarget "LibraryName-watchOS" */ = {
 			isa = XCConfigurationList;
@@ -976,6 +1000,7 @@
 				149D81661DBD2AE500A9EB1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		149D81711DBD2AFB00A9EB1A /* Build configuration list for PBXNativeTarget "LibraryName-tvOS" */ = {
 			isa = XCConfigurationList;
@@ -984,6 +1009,7 @@
 				149D81731DBD2AFB00A9EB1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		149D817E1DBD2B0800A9EB1A /* Build configuration list for PBXNativeTarget "LibraryName-macOS" */ = {
 			isa = XCConfigurationList;
@@ -992,6 +1018,7 @@
 				149D81801DBD2B0800A9EB1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
