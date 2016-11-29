@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'iOS' do
+  pod 'Sync'
+  pod 'Networking'
+  pod 'DATASource'
+  pod 'Hex'
+  pod 'Tagine', :path => '../'
+end
+
+target 'Tests' do
+end
