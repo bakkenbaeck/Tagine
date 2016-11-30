@@ -1,14 +1,23 @@
 import UIKit
 
 class TagineTagViewController: UICollectionViewController {
-    var tags = [String]()
+    var tags: [String]
+
+    init(tags: [String]) {
+        self.tags = tags
+        super.init(collectionViewLayout: TagViewFlowLayout())
+
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.collectionView!.register(TagCell.self, forCellWithReuseIdentifier: TagCell.reuseIdentifier)
+        self.collectionView!.register(TagCell.self, forCellWithReuseIdentifier: TagCell.identifier)
         self.collectionView!.translatesAutoresizingMaskIntoConstraints = false
-        self.collectionView!.register(TagCell.self)
         self.collectionView!.backgroundColor = .clear
         self.collectionView!.isScrollEnabled = false
         self.collectionView!.showsVerticalScrollIndicator = false
@@ -27,9 +36,8 @@ extension TagineTagViewController {
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: TagCell.reuseIdentifier, for: indexPath) as! TagCell
-        cell.tag = self.tags[indexpath.row]
-        cel.delegate
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: TagCell.identifier, for: indexPath) as! TagCell
+        cell.title = self.tags[indexPath.row]
 
         return cell
     }

@@ -6,22 +6,21 @@ protocol TagCellDelegate: class {
 }
 
 class TagCell: UICollectionViewCell {
+    static let identifier = "TagCell"
+
     static let margin = CGFloat(10.0)
     weak var delegate: TagCellDelegate?
 
-    var tag: String?  {
+    var title: String?  {
         didSet {
-            self.textLabel.text = title
-            self.textLabel.sizeToFit()
-            self.updateConstraints()
-            self.delegate?.tagCell(self, didUpdateWidth: self.tagCellWidth)
+            textLabel.text = title
         }
     }
 
     lazy var textLabel: UILabel = {
-        let label = UILabel(withAutoLayout: true)
-        label.font = .book(16)
-        label.textColor = UIColor.darkGrayish().withAlphaComponent(0.6)
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.textColor = UIColor.black.withAlphaComponent(0.6)
 
         return label
     }()
