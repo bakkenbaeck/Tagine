@@ -30,7 +30,6 @@ extension TagineTagViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let tag = self.tags[indexPath.row]
 
-        let cell = self.collectionView!.cellForItem(at: indexPath)
         return CGSize(width: TagCell.widthFor(tagTitle: tag), height: 44)
     }
 
