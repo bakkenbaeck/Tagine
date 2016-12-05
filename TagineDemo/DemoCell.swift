@@ -3,10 +3,21 @@ import UIKit
 
 class DemoCell: UITableViewCell {
 
+
     static let reuseIdentifier = "tagViewCell"
 
+    static func heightForTagView(forTags tags: [String]) -> CGFloat {
+       return TagineTagViewController.heightForTagView(forTags: tags)
+    }
+
+    var tags = [String]() {
+        didSet {
+            self.tagineViewController.tags = tags
+        }
+    }
+
     lazy var tagineViewController: TagineTagViewController = {
-       let tagineViewController = TagineTagViewController(tags: ["Superlong tag","Shorter tag","Normal size","Extremely long tag view","Short","This one too"])
+       let tagineViewController = TagineTagViewController()
         return tagineViewController
     }()
 

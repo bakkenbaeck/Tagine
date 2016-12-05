@@ -1,10 +1,26 @@
 import UIKit
 
 class TagineTagViewController: UICollectionViewController {
-    var tags: [String]
+    var tags = [String]() {
+        didSet {
+            self.collectionView!.reloadData()
+        }
+    }
 
-    init(tags: [String]) {
-        self.tags = tags
+    static let spacing = CGFloat(10.0)
+
+    static func heightForTagView(forTags tags: [String]) -> CGFloat {
+        var width = TagineTagViewController.spacing
+
+        for tag in tags {
+            width = width + TagCell.widthFor(tagTitle: tag) + TagineTagViewController.spacing
+        }
+
+        let rows = width / UIScreen.main.bounds.width
+        return ceil(rows) * 44
+    }
+
+    init() {
         super.init(collectionViewLayout: TagViewFlowLayout())
 
     }
@@ -21,7 +37,6 @@ class TagineTagViewController: UICollectionViewController {
         self.collectionView!.backgroundColor = .clear
         self.collectionView!.isScrollEnabled = false
         self.collectionView!.showsVerticalScrollIndicator = false
-
     }
 }
 
