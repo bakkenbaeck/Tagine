@@ -8,21 +8,35 @@ protocol TagCellDelegate: class {
 class TagCell: UICollectionViewCell {
     static let identifier = "TagCell"
 
-    static let margin = CGFloat(10.0)
-    weak var delegate: TagCellDelegate?
+    static func widthFor(tagTitle title: String) -> CGFloat {
+        let label =  TagCell.tagCellLabel
+        label.text = title
+        label.sizeToFit()
 
-    var title: String?  {
-        didSet {
-            textLabel.text = title
-        }
+        return label.frame.width + (2 * TagCell.margin)
     }
 
-    lazy var textLabel: UILabel = {
+     static var tagCellLabel: UILabel {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.textColor = UIColor.black.withAlphaComponent(0.6)
 
         return label
+    }
+
+    static let margin = CGFloat(10.0)
+    weak var delegate: TagCellDelegate?
+
+    var title: String?  {
+        didSet {
+            self.textLabel.text = title
+            self.textLabel.sizeToFit()
+            self.updateConstraints()
+        }
+    }
+
+    lazy var textLabel: UILabel = {
+        return TagCell.tagCellLabel
     }()
 
     override init(frame: CGRect) {

@@ -6,7 +6,7 @@ class DemoCell: UITableViewCell {
     static let reuseIdentifier = "tagViewCell"
 
     lazy var tagineViewController: TagineTagViewController = {
-       let tagineViewController = TagineTagViewController(tags: ["tag1","tag2","tag3","tag4","tag5","tag6"])
+       let tagineViewController = TagineTagViewController(tags: ["Superlong tag","Shorter tag","Normal size","Extremely long tag view","Short","This one too"])
         return tagineViewController
     }()
 

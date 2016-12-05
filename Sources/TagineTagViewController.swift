@@ -21,15 +21,22 @@ class TagineTagViewController: UICollectionViewController {
         self.collectionView!.backgroundColor = .clear
         self.collectionView!.isScrollEnabled = false
         self.collectionView!.showsVerticalScrollIndicator = false
+
     }
 }
 
-extension TagineTagViewController {
+extension TagineTagViewController: UICollectionViewDelegateFlowLayout {
+
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let tag = self.tags[indexPath.row]
+
+        let cell = self.collectionView!.cellForItem(at: indexPath)
+        return CGSize(width: TagCell.widthFor(tagTitle: tag), height: 44)
+    }
 
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
     }
-
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return self.tags.count
