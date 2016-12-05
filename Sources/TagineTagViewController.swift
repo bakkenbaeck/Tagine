@@ -10,14 +10,14 @@ class TagineTagViewController: UICollectionViewController {
     static let spacing = CGFloat(10.0)
 
     static func heightForTagView(forTags tags: [String]) -> CGFloat {
-        var width = TagineTagViewController.spacing
+        var width = CGFloat(0.0)
 
         for tag in tags {
             width = width + TagCell.widthFor(tagTitle: tag) + TagineTagViewController.spacing
         }
 
-        let rows = width / UIScreen.main.bounds.width
-        return ceil(rows) * 44
+        let rows = width / (UIScreen.main.bounds.width - (TagineTagViewController.spacing * 2))
+        return ceil(rows) * 54
     }
 
     init() {

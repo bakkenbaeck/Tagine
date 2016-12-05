@@ -24,7 +24,6 @@ class DemoCell: UITableViewCell {
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
 
-        self.addSubview(self.tagineViewController.view)
 
         self.addConstraints()
     }
@@ -39,6 +38,8 @@ class DemoCell: UITableViewCell {
     }
 
     func addConstraints() {
+        self.addSubview(self.tagineViewController.view)
+
         self.tagineViewController.view.topAnchor.constraint(equalTo: self.contentView.topAnchor).isActive = true
         self.tagineViewController.view.leftAnchor.constraint(equalTo: self.contentView.leftAnchor).isActive = true
         self.tagineViewController.view.rightAnchor.constraint(equalTo: self.contentView.rightAnchor).isActive = true
