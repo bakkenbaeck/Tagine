@@ -7,12 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		149D81821DBD2E8000A9EB1A /* LibraryName.h in Headers */ = {isa = PBXBuildFile; fileRef = 149D81811DBD2E8000A9EB1A /* LibraryName.h */; };
-		149D81831DBD2E8000A9EB1A /* LibraryName.h in Headers */ = {isa = PBXBuildFile; fileRef = 149D81811DBD2E8000A9EB1A /* LibraryName.h */; };
-		149D81841DBD2E8000A9EB1A /* LibraryName.h in Headers */ = {isa = PBXBuildFile; fileRef = 149D81811DBD2E8000A9EB1A /* LibraryName.h */; };
-		149D81851DBD2E8000A9EB1A /* LibraryName.h in Headers */ = {isa = PBXBuildFile; fileRef = 149D81811DBD2E8000A9EB1A /* LibraryName.h */; };
+		149D81821DBD2E8000A9EB1A /* Tagine.h in Headers */ = {isa = PBXBuildFile; fileRef = 149D81811DBD2E8000A9EB1A /* Tagine.h */; };
+		149D81831DBD2E8000A9EB1A /* Tagine.h in Headers */ = {isa = PBXBuildFile; fileRef = 149D81811DBD2E8000A9EB1A /* Tagine.h */; };
+		149D81841DBD2E8000A9EB1A /* Tagine.h in Headers */ = {isa = PBXBuildFile; fileRef = 149D81811DBD2E8000A9EB1A /* Tagine.h */; };
+		149D81851DBD2E8000A9EB1A /* Tagine.h in Headers */ = {isa = PBXBuildFile; fileRef = 149D81811DBD2E8000A9EB1A /* Tagine.h */; };
 		14A139B41AEFC72B00AD732F /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A139B31AEFC72B00AD732F /* Tests.swift */; };
 		14C47E0E1CD2AE5F004A48DF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14C47E0D1CD2AE5F004A48DF /* Info.plist */; };
+		D197B4F08B88F2B36BC6805F /* TagineTagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6174FFF1DEDD9B200971D1E /* TagineTagViewController.swift */; };
+		D197B83D704A6FF1F38D86CA /* TagViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61750051DEDDBFB00971D1E /* TagViewFlowLayout.swift */; };
+		D197BB6D28DE29485136EB06 /* TagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61750021DEDDBD200971D1E /* TagCell.swift */; };
+		E61750001DEDD9B300971D1E /* TagineTagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6174FFF1DEDD9B200971D1E /* TagineTagViewController.swift */; };
+		E61750011DEDD9B300971D1E /* TagineTagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6174FFF1DEDD9B200971D1E /* TagineTagViewController.swift */; };
+		E61750031DEDDBD200971D1E /* TagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61750021DEDDBD200971D1E /* TagCell.swift */; };
+		E61750041DEDDBD200971D1E /* TagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61750021DEDDBD200971D1E /* TagCell.swift */; };
+		E61750061DEDDBFB00971D1E /* TagViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61750051DEDDBFB00971D1E /* TagViewFlowLayout.swift */; };
+		E61750071DEDDBFB00971D1E /* TagViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61750051DEDDBFB00971D1E /* TagViewFlowLayout.swift */; };
+		E6B06ECE1DEEDA3000F34777 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B06ECD1DEEDA3000F34777 /* AppDelegate.swift */; };
+		E6B06ED31DEEDA3000F34777 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6B06ED11DEEDA3000F34777 /* Main.storyboard */; };
+		E6B06ED51DEEDA3000F34777 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6B06ED41DEEDA3000F34777 /* Assets.xcassets */; };
+		E6B06ED81DEEDA3000F34777 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6B06ED61DEEDA3000F34777 /* LaunchScreen.storyboard */; };
+		E6B06EDE1DEEE34400F34777 /* DemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B06EDD1DEEE34400F34777 /* DemoTableViewController.swift */; };
+		E6B06EE01DEEE6F300F34777 /* DemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B06EDF1DEEE6F300F34777 /* DemoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,7 +51,7 @@
 		149D815F1DBD2AE500A9EB1A /* LibraryName.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LibraryName.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		149D816C1DBD2AFB00A9EB1A /* LibraryName.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LibraryName.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		149D81791DBD2B0800A9EB1A /* LibraryName.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LibraryName.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		149D81811DBD2E8000A9EB1A /* LibraryName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryName.h; sourceTree = "<group>"; };
+		149D81811DBD2E8000A9EB1A /* Tagine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tagine.h; sourceTree = "<group>"; };
 		14A139B31AEFC72B00AD732F /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		14C0AF801BD6D4230009ECBE /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		14C0AF811BD6D4230009ECBE /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
@@ -45,6 +60,17 @@
 		14C47E0D1CD2AE5F004A48DF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14F393951CC6512400616696 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		14F393961CC6517E00616696 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		E6174FFF1DEDD9B200971D1E /* TagineTagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagineTagViewController.swift; sourceTree = "<group>"; };
+		E61750021DEDDBD200971D1E /* TagCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagCell.swift; sourceTree = "<group>"; };
+		E61750051DEDDBFB00971D1E /* TagViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagViewFlowLayout.swift; sourceTree = "<group>"; };
+		E6B06ECB1DEEDA3000F34777 /* TagineDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TagineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B06ECD1DEEDA3000F34777 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6B06ED21DEEDA3000F34777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6B06ED41DEEDA3000F34777 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6B06ED71DEEDA3000F34777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6B06ED91DEEDA3000F34777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6B06EDD1DEEE34400F34777 /* DemoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoTableViewController.swift; sourceTree = "<group>"; };
+		E6B06EDF1DEEE6F300F34777 /* DemoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +123,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E6B06EC81DEEDA3000F34777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -106,6 +139,7 @@
 				14C136501AB7849300B7B07A /* Metadata */,
 				14C31A8C1CD294C70056A33F /* Sources */,
 				146D72AF1AB782920058798C /* Tests */,
+				E6B06ECC1DEEDA3000F34777 /* TagineDemo */,
 				146D72941AB782920058798C /* Products */,
 			);
 			indentWidth = 4;
@@ -122,6 +156,7 @@
 				149D815F1DBD2AE500A9EB1A /* LibraryName.framework */,
 				149D816C1DBD2AFB00A9EB1A /* LibraryName.framework */,
 				149D81791DBD2B0800A9EB1A /* LibraryName.framework */,
+				E6B06ECB1DEEDA3000F34777 /* TagineDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,9 +195,26 @@
 		14C31A8C1CD294C70056A33F /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				149D81811DBD2E8000A9EB1A /* LibraryName.h */,
+				149D81811DBD2E8000A9EB1A /* Tagine.h */,
+				E6174FFF1DEDD9B200971D1E /* TagineTagViewController.swift */,
+				E61750021DEDDBD200971D1E /* TagCell.swift */,
+				E61750051DEDDBFB00971D1E /* TagViewFlowLayout.swift */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		E6B06ECC1DEEDA3000F34777 /* TagineDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E6B06ECD1DEEDA3000F34777 /* AppDelegate.swift */,
+				E6B06EDD1DEEE34400F34777 /* DemoTableViewController.swift */,
+				E6B06EDF1DEEE6F300F34777 /* DemoCell.swift */,
+				E6B06ED11DEEDA3000F34777 /* Main.storyboard */,
+				E6B06ED41DEEDA3000F34777 /* Assets.xcassets */,
+				E6B06ED61DEEDA3000F34777 /* LaunchScreen.storyboard */,
+				E6B06ED91DEEDA3000F34777 /* Info.plist */,
+			);
+			path = TagineDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,7 +224,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				149D81821DBD2E8000A9EB1A /* LibraryName.h in Headers */,
+				149D81821DBD2E8000A9EB1A /* Tagine.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,7 +232,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				149D81831DBD2E8000A9EB1A /* LibraryName.h in Headers */,
+				149D81831DBD2E8000A9EB1A /* Tagine.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +240,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				149D81841DBD2E8000A9EB1A /* LibraryName.h in Headers */,
+				149D81841DBD2E8000A9EB1A /* Tagine.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +248,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				149D81851DBD2E8000A9EB1A /* LibraryName.h in Headers */,
+				149D81851DBD2E8000A9EB1A /* Tagine.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +379,23 @@
 			productReference = 149D81791DBD2B0800A9EB1A /* LibraryName.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		E6B06ECA1DEEDA3000F34777 /* TagineDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6B06EDA1DEEDA3000F34777 /* Build configuration list for PBXNativeTarget "TagineDemo" */;
+			buildPhases = (
+				E6B06EC71DEEDA3000F34777 /* Sources */,
+				E6B06EC81DEEDA3000F34777 /* Frameworks */,
+				E6B06EC91DEEDA3000F34777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TagineDemo;
+			productName = TagineDemo;
+			productReference = E6B06ECB1DEEDA3000F34777 /* TagineDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -334,7 +403,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = "";
-				LastSwiftUpdateCheck = 0800;
+				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "";
 				TargetAttributes = {
@@ -352,6 +421,7 @@
 					};
 					149D81511DBD2ADD00A9EB1A = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					149D815E1DBD2AE500A9EB1A = {
@@ -364,6 +434,11 @@
 					};
 					149D81781DBD2B0800A9EB1A = {
 						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					E6B06ECA1DEEDA3000F34777 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 29X3GG489T;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -388,6 +463,7 @@
 				149D815E1DBD2AE500A9EB1A /* LibraryName-watchOS */,
 				149D816B1DBD2AFB00A9EB1A /* LibraryName-tvOS */,
 				149D81781DBD2B0800A9EB1A /* LibraryName-macOS */,
+				E6B06ECA1DEEDA3000F34777 /* TagineDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -443,6 +519,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E6B06EC91DEEDA3000F34777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B06ED81DEEDA3000F34777 /* LaunchScreen.storyboard in Resources */,
+				E6B06ED51DEEDA3000F34777 /* Assets.xcassets in Resources */,
+				E6B06ED31DEEDA3000F34777 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -451,6 +537,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				14A139B41AEFC72B00AD732F /* Tests.swift in Sources */,
+				E61750001DEDD9B300971D1E /* TagineTagViewController.swift in Sources */,
+				E61750031DEDDBD200971D1E /* TagCell.swift in Sources */,
+				E61750061DEDDBFB00971D1E /* TagViewFlowLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +561,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E61750041DEDDBD200971D1E /* TagCell.swift in Sources */,
+				E61750071DEDDBFB00971D1E /* TagViewFlowLayout.swift in Sources */,
+				E61750011DEDD9B300971D1E /* TagineTagViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,7 +588,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E6B06EC71DEEDA3000F34777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B06ECE1DEEDA3000F34777 /* AppDelegate.swift in Sources */,
+				E6B06EE01DEEE6F300F34777 /* DemoCell.swift in Sources */,
+				E6B06EDE1DEEE34400F34777 /* DemoTableViewController.swift in Sources */,
+				D197BB6D28DE29485136EB06 /* TagCell.swift in Sources */,
+				D197B4F08B88F2B36BC6805F /* TagineTagViewController.swift in Sources */,
+				D197B83D704A6FF1F38D86CA /* TagViewFlowLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6B06ED11DEEDA3000F34777 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6B06ED21DEEDA3000F34777 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6B06ED61DEEDA3000F34777 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6B06ED71DEEDA3000F34777 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		146D72B41AB782920058798C /* Debug */ = {
@@ -694,6 +818,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -723,6 +848,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -924,6 +1050,44 @@
 			};
 			name = Release;
 		};
+		E6B06EDB1DEEDA3000F34777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 29X3GG489T;
+				INFOPLIST_FILE = TagineDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bakkenbaeck.TagineDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E6B06EDC1DEEDA3000F34777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 29X3GG489T;
+				INFOPLIST_FILE = TagineDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bakkenbaeck.TagineDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -952,6 +1116,7 @@
 				149D81401DBD2A5E00A9EB1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		149D814A1DBD2A6600A9EB1A /* Build configuration list for PBXNativeTarget "macOSTests" */ = {
 			isa = XCConfigurationList;
@@ -960,6 +1125,7 @@
 				149D814C1DBD2A6600A9EB1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		149D81571DBD2ADD00A9EB1A /* Build configuration list for PBXNativeTarget "LibraryName-iOS" */ = {
 			isa = XCConfigurationList;
@@ -968,6 +1134,7 @@
 				149D81591DBD2ADD00A9EB1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		149D81641DBD2AE500A9EB1A /* Build configuration list for PBXNativeTarget "LibraryName-watchOS" */ = {
 			isa = XCConfigurationList;
@@ -976,6 +1143,7 @@
 				149D81661DBD2AE500A9EB1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		149D81711DBD2AFB00A9EB1A /* Build configuration list for PBXNativeTarget "LibraryName-tvOS" */ = {
 			isa = XCConfigurationList;
@@ -984,6 +1152,7 @@
 				149D81731DBD2AFB00A9EB1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		149D817E1DBD2B0800A9EB1A /* Build configuration list for PBXNativeTarget "LibraryName-macOS" */ = {
 			isa = XCConfigurationList;
@@ -992,6 +1161,16 @@
 				149D81801DBD2B0800A9EB1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6B06EDA1DEEDA3000F34777 /* Build configuration list for PBXNativeTarget "TagineDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B06EDB1DEEDA3000F34777 /* Debug */,
+				E6B06EDC1DEEDA3000F34777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

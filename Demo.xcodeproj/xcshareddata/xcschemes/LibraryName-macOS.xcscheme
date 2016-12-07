@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "149D81781DBD2B0800A9EB1A"
-               BuildableName = "LibraryName-macOS.framework"
+               BuildableName = "LibraryName.framework"
                BlueprintName = "LibraryName-macOS"
                ReferencedContainer = "container:Demo.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "149D81781DBD2B0800A9EB1A"
-            BuildableName = "LibraryName-macOS.framework"
+            BuildableName = "LibraryName.framework"
             BlueprintName = "LibraryName-macOS"
             ReferencedContainer = "container:Demo.xcodeproj">
          </BuildableReference>
@@ -71,7 +71,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "149D81781DBD2B0800A9EB1A"
-            BuildableName = "LibraryName-macOS.framework"
+            BuildableName = "LibraryName.framework"
             BlueprintName = "LibraryName-macOS"
             ReferencedContainer = "container:Demo.xcodeproj">
          </BuildableReference>
